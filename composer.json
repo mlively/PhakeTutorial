@@ -1,0 +1,22 @@
+{
+    "name": "digitalsandwich/phake-talk",
+    "description": "An hour long rambling about Phake",
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-0": {
+            "Phake": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mike Lively",
+            "email": "m@digitalsandwich.com"
+        }
+    ],
+    "require": {
+        "phake/phake": "~2.0"
+    }
+}
